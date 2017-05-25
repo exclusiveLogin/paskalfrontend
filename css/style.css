@@ -1,0 +1,438 @@
+@import "http://webfonts.ru/import/bender.css";
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Regular Regular'), local('BebasNeueRegular'), url('http://64424.selcdn.ru/webfont/bebasneue/bebasneue_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Thin Regular'), local('BebasNeue-Thin'), url('http://64424.selcdn.ru/webfont/bebasneue/bebasneue_thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Light Regular'), local('BebasNeueLight'), url('http://64424.selcdn.ru/webfont/bebasneue/bebasneue_light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Book Regular'), local('BebasNeueBook'), url('http://64424.selcdn.ru/webfont/bebasneue/bebasneue_book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Bold Regular'), local('BebasNeueBold'), url('http://64424.selcdn.ru/webfont/bebasneue/bebasneue_bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+/************************************************************************/
+@media (max-width:768px) {
+    #archivement{
+        text-align: center;
+    }
+    #mainmenu{
+        text-align: center;
+    }
+}
+
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+iframe{border: 2px solid #aaa;}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+}
+
+body {
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, Sans Serif;
+    background-color: #eeeedd;
+    margin-bottom: 15px;
+  /*background: #001426 url("../img/bg-pattern.png");*/
+}
+img {
+    max-width: 100%;
+}
+a {
+  color: #196a74;
+  text-decoration: none;
+}
+#archivement h2{
+    font-size: 150%;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#archivement p{
+    font-size: 90%;
+    color: #333333;
+}
+/* --------------------------------
+
+Main Components
+
+-------------------------------- */
+
+#header{
+    background-color: #EFF7FF;
+    min-height: 70px;
+}
+#logo{
+    width: 100%;
+    height: 70px;
+    background: url("../img/logo2.png") center no-repeat;
+    background-size: contain;
+}
+#footer{
+    color: #ffffff;
+    background-color: #555555;
+    line-height: 18px;
+}
+#description{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    font-family: "Bender";
+    color:#333;
+    border-top: 2px solid #008BB1;
+}
+.intro_one{
+    font-size: 130%;
+}
+.intro_two{
+    font-size: 110%;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.intro_big{
+    font-size: 170%;
+    font-weight: bold;
+}
+#contact{
+    background-color: #EFF7FF;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    padding-bottom: 20px;
+    z-index: 1001;
+    position: relative;
+}
+#btn_map{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background: url("../img/map.png");
+    background-position: center center;
+    background-size: 103%;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.3);
+    cursor: pointer;
+    border: 2px outset #eef0F0;
+}
+.map_active{
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.0) !important;
+    border: 2px inset #eef0F0 !important;
+}
+#testimonials{
+    background-color: #eee;
+    z-index: 0;
+}
+.testimonial_photo{
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+}
+#features{
+    background-color: #fff;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    padding-bottom: 20px;
+}
+.feature_img{
+    height: 200px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.feature_svid{
+    height: 200px;
+    width: 142px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.testimonial_img{
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.archivement_img{
+    height: 150px;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    border: outset 1px #ddddee;
+    margin-top: 20px;
+}
+.archivement_prj{
+    background: url("../img/proektirovanie.png");
+    background-position: center center;
+    background-size: contain;
+}
+.archivement_doc{
+    background: url("../img/idocument-icon.png");
+    background-position: center center;
+    background-size: contain;
+}
+.archivement_smr{
+    background: url("../img/engineering.png");
+    background-position: center center;
+    background-size: contain;
+}
+.archivement_soft{
+    background: url("../img/Install.png");
+    background-position: center center;
+    background-size: contain;
+}
+.archivement_maitaince{
+    background: url("../img/service2.png");
+    background-position: center center;
+    background-size: contain;
+}
+.unwrap_btn{
+    position: relative;
+    top: -8px;
+    float: right;
+}
+.feature_quality{
+    background: url("../img/quality.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.feature_effective{
+    background: url("../img/effect.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.feature_creative{
+    background: url("../img/SCADA_Monitor.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.feature_svid_gapp{
+    background: url("../documents/svid1.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.feature_svid_stroy{
+    background: url("../documents/svid2.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.testimonial_rjd{
+    background: url("../img/rzd.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.testimonial_krista{
+    background: url("../img/krista.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.testimonial_lgok{
+    background: url("../img/lgok.jpg") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.testimonial_sgauto{
+    background: url("../img/sgauto.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.testimonial_rninform{
+    background: url("../img/rn_inform.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.testimonial_mpk{
+    background: url("../img/pmk.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.testimonial_name{
+    font-weight: 600;
+    font-size: 110%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+#catalog{
+    background-color: #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.catalog_img{
+    height: 90px;
+    width: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+}
+.alert{
+    margin: 30px;
+}
+.fontface #btn_catalog_category{
+    font-size: 150%;
+    font-family: 'Bender';
+}
+.category_brand{
+    cursor: pointer;
+}
+.phone {
+    font-size: 150% !important;
+    font-family: Arial, Helvetica, Sans Serif;
+    font-weight: bold;
+}
+.headertext {
+    font-size: 36px;
+    font-family: "Bender";
+    color:#333;
+}
+.tesis{
+    font-family: "Bender";
+    color: #45719E;
+    font-size: 130%;
+    font-weight: bold;
+    line-height: 22px;
+    margin-top: 32px;
+    display: block;
+}
+#archivement{
+    background-color: #EFF7FF;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    /*border-top: 2px solid #008BB1;*/
+}
+.mainmenu_item{
+    display: inline-block;
+    font-size: 120%;
+    font-family: 'Bebas Neue';
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+    color: #444444;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.active_li{
+    font-weight: bold;
+    color: #23527c;
+    cursor: pointer;
+    text-decoration: none;
+ }
+.active_li:hover{
+    text-decoration: underline;
+}
+.inactive_li{
+    color: #999999;
+    text-decoration: none;
+}
+.adress{
+    font-size: 100%;
+    font-weight: 600;
+}
+.firmname{
+    font-size: 150%;
+    font-weight: 600;
+    color: #45719E;
+}
+.contact{
+    font-family: "Bender";
+    font-size: 85%;
+    position: relative;
+    top: -15px;
+    left:5px;
+}
+.name{
+    font-weight: 600;
+}
+#arrow_down{
+    cursor: pointer;
+}
+.referal_links{
+    opacity: 0.5;
+    margin-top: 10px;
+}
+.header_desc{
+    font-size: 60%;
+}
+.cd-hero ul{
+    margin-bottom: 0;
+}
+#library{
+    width: 350px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: -370px;
+    background-color: #008BB1;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.3);
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+    color: #EFF7FF !important;
+    border-left: 2px solid #ffffff;
+    z-index: 1010;
+    opacity: 0.5;
+    overflow-y: scroll;
+}
+#library h3{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#library hr{
+    margin-bottom: 5px;
+    margin-top: 0px;
+    width: 90%;
+}
+#library i{
+    color: #EFF7FF !important;
+}
+#library a{
+    color: #EFF7FF !important;
+}
+.doc_subcat{
+    transition: all 0.5s ease;
+    display: none;
+}
+#close_lib{
+    right: 10px;
+    top: 5px;
+    position: absolute;
+    cursor: pointer;
+}
+hr{
+
+}
+#zanaves{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.0;
+    top: 0px;
+    z-index: 1005;
+    display: none;
+}
+.features{
+    font-size: 200% !important;
+    margin-bottom: 40px;
+}
