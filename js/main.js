@@ -173,7 +173,7 @@ $(document).ready(function(){
         $(this).find('i').toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
         var parent = $(this).parents('.row');
         parent.find('.doc_subcat').toggle(500);
-    });//обработка клика по категории библиотеки
+    });
     $('#close_lib, #zanaves').click(function(){
         close_lib();
     });

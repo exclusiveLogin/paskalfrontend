@@ -321,6 +321,10 @@ Main Components
     padding-bottom: 40px;
     /*border-top: 2px solid #008BB1;*/
 }
+#screenshots{
+    background-color: #dfe2e6;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
 .mainmenu_item{
     display: inline-block;
     font-size: 120%;
