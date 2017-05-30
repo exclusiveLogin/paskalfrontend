@@ -207,11 +207,49 @@ Main Components
     background-position: center center;
     background-size: contain;
 }
+.archivement_quality{
+    height: 50px;
+    width: 50px;
+    background: url("../img/ql1.png");
+    background-position: center center;
+    background-size: contain;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.feature_row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .unwrap_btn{
     position: relative;
     top: -8px;
     float: right;
 }
+.feature_disp{
+    background: url("../img/Scada-Icon.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.feature_monitoring{
+    background: url("../img/monitoring1.jpg") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.feature_control{
+    background: url("../img/quality.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.feature_report{
+    background: url("../img/otch.jpg") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.scheme{
+    background-color: white;
+}
+
 .feature_quality{
     background: url("../img/quality.png") no-repeat;
     background-position: center center;
@@ -236,6 +274,35 @@ Main Components
     background: url("../documents/svid2.png") no-repeat;
     background-position: center center;
     background-size: contain;
+}
+.screenshot1{
+     background: url("../img/screen1.jpg") no-repeat;
+     background-position: center center;
+     background-size: contain;
+ }
+.screenshot2{
+    background: url("../img/screen2.jpg") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.screenshot3{
+    background: url("../img/screen3.jpg") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.screenshot4{
+    background: url("../img/screen4.jpg") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.screenshot5{
+    background: url("../img/screen5.jpg") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.screenshots{
+    min-height: 100px;
+    margin-bottom: 20px;
 }
 .testimonial_rjd{
     background: url("../img/rzd.png") no-repeat;
